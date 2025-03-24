@@ -22,7 +22,12 @@ We trained the following models using the preprocessed dataset:
 | **GRU + fastText**   | 300                | 32           | 0.4     |
 
 ## 5. Training and Validation Loss Plots
-![Training and Validation Loss](plots/training_validation_loss.png)
+
+
+![Screenshot 2025-03-24 183813](https://github.com/user-attachments/assets/e3734a63-66d9-40cd-8911-753647b5d4ad)
+![Screenshot 2025-03-24 183825](https://github.com/user-attachments/assets/b1721fa7-89eb-4c3f-a643-0b9749f96a98)
+
+
 
 ## 6. Performance Comparison & Best Model
 
@@ -37,30 +42,9 @@ We trained the following models using the preprocessed dataset:
 - **RNN + GloVe** had the lowest **chunk-level F1-score (17.53%)**.
 - **Tag-level accuracy** remained relatively stable across models.
 
-## 7. How to Run the Code
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ATE-Extraction.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd ATE-Extraction
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the training script:
-   ```bash
-   python task1.py
-   ```
 
 ## 8. Acknowledgments
 - **Pretrained Embeddings:** GloVe, fastText
 - **Sequence Labeling Models:** RNN, GRU
 - **Evaluation Metrics:** Chunk-level and Tag-level F1-score
 
-📌 **Future Improvements:** Consider Transformer-based models (BERT, RoBERTa) for enhanced performance.
-
----
-Let me know if you need any modifications! 🚀
